@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Расписание</title>
+  <style>
+    .wrap {
+      display: grid;
+      justify-items: center;
+      text-align: center;
+      gap: 5%;
+    }
+
+    .Answer {
+      width: 50%;
+      background-color: bisque;
+      word-break: break-all;
+      text-align: center;
+    }
+  </style>
+</head>
+<div class="wrap">
+  <header>
+    <h1>Сколько прошло дней с твоей любимой даты<h1>
+  </header>
+  <div>
+    <label for="favorite_date">Введи дату!</label>
+    <div>
+      <input type="date" id="favorite_date">
+    </div>
+  </div>
+
+  <button onclick="printAnswer()">Вывести дни</button>
+  <div class="Answer" id="Days"> </div>
+  <div class="Answer" id="Years"></div>
+</div>
+<script src="№4.js"></script>
+</body>
+
+</html>
