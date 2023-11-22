@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>РАЗРАБОТКА СТЕПАНА ЗНАЮЩЕГО</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      .wrap {
+        display: grid;
+        justify-items: center;
+        text-align: center;
+        gap: 5%;
+      }
+
+      .Answer {
+        width: 50%;
+        background-color: bisque;
+        word-break: break-all;
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="wrap">
+      <header>
+        <h1>Скольжение в речь ящеров</h1>
+      </header>
+      <div>
+        <label for="russian_word">Молви слово</label>
+        <div>
+          <input type="text" id="russian_word" />
+        </div>
+      </div>
+
+      <button type="button" onclick="PrintAnswer()">Ящерить</button>
+      <div class="Answer" id="Descripted_text">На языке ящеров:</div>
+      <div class="Answer" id="Undescripted_text">На древне русском:</div>
+      <script src="№1.js"></script>
+    </div>
+  </body>
+</html>
