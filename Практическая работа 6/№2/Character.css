@@ -1,0 +1,54 @@
+body
+{
+    background-color: #141414;
+    /*попростить объяснить почему испльзование display здесь не пралильно*/
+
+}
+
+h1
+{
+    text-align: center;
+    color: rgb(226, 62, 62);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2
+{
+    color: rgb(226, 62, 62);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header
+{
+    text-align: center;
+}
+
+.character-image
+{
+    display: contents;
+    margin-right: 10px; 
+    background-color:aliceblue;
+}
+.character-image img
+{
+    width: 10%;
+}
+
+div
+{
+    display: grid;
+    gap: 10px;
+    color: aliceblue;
+}
+
+p
+{
+    width: 100%;
+
+    text-align: start;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+    border: 5px solid rgb(226, 62, 62);
+    padding: 5px;
+}

@@ -1,0 +1,19 @@
+.wrap
+{
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    border: medium solid cadetblue;
+    border-radius: 25px;
+    
+    padding: 1%;
+}
+.wrap div
+{
+    margin-top: 5%;
+}
+
+.wrap label
+{
+    margin-left: 5%;
+}

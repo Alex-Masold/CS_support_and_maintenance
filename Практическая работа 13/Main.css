@@ -1,0 +1,47 @@
+body
+{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+.wrap1
+{
+    width: 20%;
+    background-color: beige;
+    border: medium solid bisque;
+    padding: 5%;
+}
+.wrap2
+{
+    width: 20%;
+    background-color: beige;
+    border: medium solid bisque;
+    padding: 5%;
+}
+.wrap2 img
+{
+    width: 20%;
+}
+.wrap3
+{
+    width: 50%;
+    background-color: beige;
+    border: medium solid bisque;
+    padding: 5%;
+}
+.wrap3 img
+{
+    width: 20%;
+}
+.div1
+{
+    text-align: left;
+}
+.div2
+{
+    text-align: right;
+}
+.div3
+{
+    text-align: center;
+}

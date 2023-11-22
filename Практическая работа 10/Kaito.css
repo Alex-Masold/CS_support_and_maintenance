@@ -1,0 +1,80 @@
+.header
+{
+    padding: 1%;
+    background-color: #121C5E;
+    color: #6B78C8;
+}
+.header button
+{
+    background: radial-gradient(#121C5E, #374390);
+    border: 2mm ridge #333c7e;/* Рамка вокруг картинки*/
+    padding: 0.5%;
+    color: #6B78C8;
+    text-shadow: 1px 1px 2px black;
+    font-family: Georgia;
+}
+.container
+{
+    padding: 1%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows:auto;
+    gap: 2%;
+}
+.container header
+{
+    grid-area: 1 / span 5;
+}
+.container img
+{
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-row-end: 2;
+    grid-column-end: span 5;
+    justify-self: center;
+    margin-right: 1%;
+    background: radial-gradient(#6B78C8, #3A416C);
+    border: 4mm ridge #364185;/* Рамка вокруг картинки*/
+    padding: 1%;
+    width: 25%;
+}
+.container p
+{   
+    width: 90%;
+    margin-left: 1%;
+    padding: 2%;
+    border: 4mm ridge #4b56a1;/* Рамка вокруг картинки*/
+    background: linear-gradient(to top, #374390, #121C5E);
+    color: #848DC8;
+    font-family: sans-serif;
+    font-size: 18px;
+    
+
+}
+body 
+{
+    background-color: #374390;
+}
+
+#colum2
+{
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    justify-self: start;
+}
+
+#colum3
+{
+    grid-column-start: 3;
+    grid-column-start: 3;
+    justify-self: center;
+
+}
+
+#colum4
+{
+    grid-column-start: 4;
+    grid-column-end: span 2;
+    justify-self: end;
+
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {
+            display: grid;
+        }
+        .wrap
+        {
+            display: grid;
+            justify-items: center;
+            gap: 5%;
+        }
+        .Answer
+        {
+            width: 50%;
+            background-color: bisque;
+            word-break: break-all;
+            padding: 1%;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <header><h1>Зашифрованного текста<h1></header>
+        <button onclick="PrintAnswer()">Расшифровать</button>
+        <div class="Answer" > 
+            <pre id="Origin">
+По совести скажи: кого ты любишь?
+Ты знаешь, любят многие тебя.
+Но так беспечно молодость ты губишь,
+Что ясно всем — живешь ты, не любя.
+
+Свои лютый враг, не зная сожаленья,
+Ты разрушаешь тайно день за днем
+Великолепный, ждущий обновленья,
+К тебе в наследство перешедший дом.
+Переменись — и я прощу обиду,
+В душе любовь, а не вражду пригрей.
+Будь так же нежен, как прекрасен с виду,
+И стань к себе щедрее и добрей.
+
+Пусть красота живет не только ныне,
+Но повторит себя в любимом сыне.
+            </pre>
+        </div>
+        <div class="Answer" id = "Answer"> </div>
+    </div>
+    
+    <script src="№3.js"></script>
+</body>
+</html>

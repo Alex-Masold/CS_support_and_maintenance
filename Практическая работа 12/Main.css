@@ -1,0 +1,26 @@
+body
+{
+    background-color: #000;
+}
+  ul{
+    background: #000;
+    width: 20%;
+    float: left;
+    list-style: none;
+  }
+  
+  ul li img{
+    -ms-filter:progid:DXImageTransform.Microsoft.alpha(opacity=40);
+    filter:alpha(opacity=40);
+    opacity: 0.4;
+  }
+  ul li a:hover img{
+    -ms-filter:progid:DXImageTransform.Microsoft.alpha(opacity=100);
+    filter:alpha(opacity=100);
+    opacity: 1;
+  }
+  #images{
+    width: 550px;
+    height: 450px;
+    overflow:hidden;
+  }

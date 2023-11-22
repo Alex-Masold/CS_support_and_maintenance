@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Шар судьбы</title>
+    <style>
+        .wrap
+        {
+            display: grid;
+            justify-items: center;
+            gap: 5%;
+        }
+        .Answer
+        {
+            width: 50%;
+            background-color: bisque;
+            word-break: break-all;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <header><h1>Шалик судьбы ответит на твой вопрос<h1></header>
+        <div>
+            <label>Введите вопрос для шалика:</label>
+            <div align="center">
+                <input type="text" id="Question" placeholder="Введите свой вопрос" maxlength="100">
+            </div>
+        </div>
+        
+        
+        <button onclick="PrintAnswer()">Расчитать длину отрезка</button>
+        <div class="Answer" id = "Answer"> </div>
+    </div>
+    
+    <script src="№5.js"></script>
+</body>
+</html>

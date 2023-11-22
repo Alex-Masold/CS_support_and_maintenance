@@ -1,0 +1,21 @@
+.header h1
+{
+    font-weight:bold;
+    
+}
+.container
+{
+    text-align: center;
+}
+
+.container img
+{
+    border: 4mm ridge rgb(212, 172, 40);/* Рамка вокруг картинки*/
+    vertical-align: middle;
+}
+
+
+body
+{
+    background: rgb(68, 36, 36);
+}

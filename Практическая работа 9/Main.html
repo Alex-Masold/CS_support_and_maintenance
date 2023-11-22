@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Main.css">
+    <title>Document</title>
+    <style>
+        body
+        {
+            background: #457074;
+        }
+
+        header
+        {
+            text-align: center;
+            color: azure;
+        }
+        .container
+        {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;  
+            padding: 20px;
+           
+            align-items: center;
+
+        }
+        .button
+        {
+            background: linear-gradient(to left, #175E65, #47949B);
+            color: antiquewhite; /*задаем цвет*/
+            text-shadow: 0px 0px 2px white; /**параметры тени текста*/
+            vertical-align: top;
+        }
+        img
+        {
+            width: 70%;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Жанры</h1>
+    </header>
+    <div class="container">
+        <a href="Rock.html">
+            <input class="button" type="button" value="Rock"/>
+            <div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMz_B4iVR8PZOAQ6VMzQPwczemRb8HVAkZxfVrg-FtGkJu01NU5YR0GA0IDMMZ-evwBAw&usqp=CAU" alt="">
+
+            </div>
+        </a>
+        <a href="Dinosaurs.html">
+            <input class="button" type="button" value="dinosaur"/>
+            <img src="https://media.tenor.com/3iFDH7vUBsQAAAAC/yee-dinosaur.gif" alt="">
+        </a>
+    </div>
+   
+</body>
+</html>

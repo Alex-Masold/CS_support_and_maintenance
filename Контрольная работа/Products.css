@@ -1,0 +1,68 @@
+.wrap
+{
+    display: grid;
+    border: medium solid black;
+}
+.header
+{
+    display: grid;
+}
+.header button
+{
+    align-self: center;
+    justify-self: center;
+    width: 20%;
+    height: 50%;
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+.header h1
+{
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.product
+{
+    display: grid;
+    border: medium solid black;
+    padding: 1%;
+    margin: 1%;
+}
+.product div
+{
+    border: medium solid black;
+    padding: 1%;
+    margin-bottom: 1%;
+    display: grid;
+    gap: 1%;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "a b"
+    "a c"
+    "a d";
+}
+.product img
+{
+    grid-area: a;
+    align-self: center;
+}
+
+.product button 
+{
+    display: contents;
+}
+
+.product h2
+{
+    grid-area: b;
+}
+.product h3
+{
+    grid-area: c;
+}
+.product p
+{
+    grid-area: d;
+    background-color: bisque;
+}

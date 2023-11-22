@@ -1,0 +1,72 @@
+
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="Main.css">
+</head>
+<body bgcolor="">
+<form action="/signup" method="POST">
+<div>
+    <h1>Заполните анкету</h1>
+    <p>
+        <label>Обращение</label>
+        <label>
+            <input type="radio" name="title" value="mr"> <!--выбирашка -->
+            М
+        </label>
+        <label>
+            <input type="radio" name="title" value="mrs"> <!--выбирашка -->
+            Ж
+        </label>
+    </p>
+    <p>
+        <label>Имя</label> 
+        <input type="text" name="first_name"> <!--Писашка -->
+    </p>
+    <p>
+        <label>Фамилия</label>
+        <input type="text" name="last_name"> <!--Писашка -->
+    </p>
+    <p>
+        <label>Email</label>
+        <input type="email" name="email"> <!--Писашка -->
+    </p>
+    <p>
+        <label>Телефон</label>
+        <input type="tel" name="phone"> <!--Писашка -->
+    </p>
+    <p>
+        <label>Пароль</label>
+        <input type="password" name="password"> <!-- Паролевая Писашка -->
+    </p>
+    <p>
+        <label>Подтвердите пароль</label>
+        <input type="password" name="password_confirm"> <!-- Паролевая Писашка -->
+    </p>
+    <p>
+        <label>Страна</label>
+        <select name="country"> <!-- Выпадашка -->
+            <option>Канада</option>
+            <option>Франция</option>
+            <option>Германия</option>
+            <option>Италия</option>
+            <option>Япония</option>
+            <option>Россия</option>
+            <option>Великобритания</option>
+            <option>США</option>
+        </select>
+    </p>
+    <p>
+        <label>
+            <input type="checkbox" name="terms"> <!-- Проставляшка -->
+            Я согласен с <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">условиями использования</a>
+        </label>
+    </p>
+    <p>
+        <button>
+            Зарегистрироваться <!-- КНОПКА -->
+        </button>
+    </p>
+</div>
+</form>

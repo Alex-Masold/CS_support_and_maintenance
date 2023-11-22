@@ -1,0 +1,29 @@
+.image-border
+{
+    display: inline-block;
+    font-size: large;
+}
+.image-border img
+{
+    border: 4mm ridge black;/* Рамка вокруг картинки*/
+    margin-bottom: 10 px; /* Отступ снизу */
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.link
+{
+    display: inline;
+}
+
+
+.container
+{
+    text-align: center;
+}
+
+body {
+    background-color: #382238;
+    color: #9C7A9C;
+  }
+

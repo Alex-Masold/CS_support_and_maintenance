@@ -1,0 +1,54 @@
+.header
+{
+background-color: #006064;
+color: #77bbbe;
+}
+.header button
+{
+    background: radial-gradient(#006064, #01939A);
+    border: 2mm ridge #01939A;/* Рамка вокруг картинки*/
+    padding: 0.5%;
+    color: #77bbbe;
+    text-shadow: 1px 1px 2px black;
+    font-family: Georgia;
+    margin-bottom: 1%;
+}
+.container
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows:auto;
+    gap: 2%;
+}
+.container header
+{
+    grid-area: 1 / span 2;
+}
+.container img
+{
+    grid-area: 2;
+    justify-self: end;
+    align-self: center;
+    margin-right: 1%;
+    background: radial-gradient(#006064, #34C6CD);
+    border: 4mm ridge #01939A;/* Рамка вокруг картинки*/
+    padding: 1%;
+    width: 55%;
+}
+.container p
+{
+    grid-area: 2;
+    margin-left: 1%;
+    border: 4mm ridge #01939A;/* Рамка вокруг картинки*/
+    background: linear-gradient(to top, #1D7074, #5DC8CD);
+    text-shadow: 0px 1px 5px rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-size: 18px;
+    width: 60%;
+
+}
+body 
+{
+    background-color: #5DC8CD;
+    color: #0f3b3d;
+}

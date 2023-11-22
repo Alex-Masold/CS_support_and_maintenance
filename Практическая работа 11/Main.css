@@ -1,0 +1,48 @@
+body
+{
+    background-color: lemonchiffon;
+}
+.Wrap
+{
+    display: grid;
+    width: 100%;
+    background-color: antiquewhite;
+}
+.Wrap header
+{
+    justify-self: center;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+.header
+{
+    text-align: center;
+    padding: 1%;
+}
+.header button
+{
+    background-color: bisque;
+    
+}
+.column
+{
+    column-count: 4;
+    column-gap: 5%;
+    column-rule: 5px solid chocolate;
+    margin: 5%;
+}
+.column div
+{
+    width: 100%;
+}
+.column img
+{
+    justify-self: center;
+    border: 1% ridge brown;
+    width: 100%;
+}
+.column p
+{
+    background-color: bisque;
+    width: 100%;
+}

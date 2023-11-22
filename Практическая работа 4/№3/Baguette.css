@@ -1,0 +1,27 @@
+.image-border
+{
+    display: inline-block;
+    font-size: large;
+}
+.image-border img
+{
+    border: 4mm ridge rgb(192, 144, 14);/* Рамка вокруг картинки*/
+    vertical-align: middle;
+}
+
+.link
+{
+    display: inline;
+}
+
+.container
+{
+    text-align: center;
+}
+
+body 
+{
+    background-color: rgb(126, 91, 27);
+    color: #e0dacd;
+  }
+

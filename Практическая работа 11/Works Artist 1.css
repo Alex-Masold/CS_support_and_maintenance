@@ -1,0 +1,42 @@
+body
+{
+    background: antiquewhite;
+}
+header
+{
+    text-align: center;
+    background: #7AC6CD;
+    padding: 20px;
+}
+h1
+{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+table
+{
+    align-items: center;
+    width: 70%;
+    border: 2px solid #47949B;
+    border-spacing: 30px;
+}
+td
+{
+    width: 200px;
+    border: 5px solid #7AC6CD;
+    background: #47949B;
+    box-shadow: 20px -20px 0px #47949B;
+}
+img
+{
+    width: 100%;
+}
+.button
+{
+    background: bisque;
+    color: black; /*задаем цвет*/
+}
+.wrap
+{
+    padding: 1%;
+}

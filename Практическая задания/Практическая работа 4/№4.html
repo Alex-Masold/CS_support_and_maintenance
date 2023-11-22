@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        header
+        {
+            background: rgb(47, 146, 47);
+            color: azure;
+            font-size:larger;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        h1
+        {
+            margin-left: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header><h1>Расскажите немного о себе...</h1></header>
+    <p>Указывать подлинные данные совсем не обязательно. <br>
+        Для целей демонстрации вполне подойдкт и вымышленные.
+    </p>
+    <form action="">
+        Имя: <input name="Имя"> <br>
+        Фамилия: <input name="Фамилия"> <br>
+        Пол: <input type="radio" name="Пол" value="Ж"> Ж
+             <input type="radio" name="Пол" value="М"> M <br>
+        Возраст: <input type="number" name="Возраст" size="10" maxlength="15"> лет <br>
+        <input type="submit" name="отправить" value="Запустить обработчик"> <br>
+        <select name="вариант">
+            <option value="вариант1">вариант1</option>
+            <option value="вариант2">вариант2</option>
+            <option value="вариант3">вариант3</option>
+        </select>
+
+    </form>
+</body>
+</html>

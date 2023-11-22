@@ -1,0 +1,91 @@
+body
+{
+    background-color: #ECE3DB;
+}
+
+.header
+{
+    text-align: center;
+    color: #994B47;
+}
+.header input
+{
+    background: linear-gradient(to top, #d49a66, #994B47);
+    color: antiquewhite; /*задаем цвет*/
+    text-shadow: 0px 0px 2px white; /**параметры тени текста*/
+}
+.h1
+{
+    color: #994B47;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.head div
+{
+    justify-items: space-between;
+}
+
+h2
+{
+    text-align: center;
+    color: #994B47;
+}
+
+img
+{
+    width: 80%;
+}
+
+.border
+{
+    color: #996E47;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.border div
+{
+
+    border: 5px solid #996E47;
+    padding: 5px;
+
+    width: 45%;
+
+    text-align: center;
+}
+
+.border p
+{
+    border: 5px solid #996E47;
+    padding: 5px;
+
+    background: radial-gradient(#F6EEE8, #d49a66);
+    text-shadow: 0px 0px 2px white; /**параметры тени текста*/
+    display: inline-flex;
+    box-shadow: 10px 20px 0px #d49a66;
+    width: 50%;
+    height: 200PX
+}
+
+.border img
+{
+    border: 5px solid #996E47;
+    box-shadow: 10px -20px 0px #d49a66;
+    padding: 5px;
+}
+
+.left-div
+{
+    float: left;
+    margin-left: 40px;
+    height: 1400px;
+}
+
+.right-div
+{
+    float: right;
+    margin-right: 40px;
+    height: 1400px;
+}

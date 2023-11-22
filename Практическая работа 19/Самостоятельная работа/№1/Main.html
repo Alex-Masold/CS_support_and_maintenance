@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Словари за 100р</title>
+    <style>
+        .wrap
+        {
+            display: grid;
+            justify-items: center;
+            gap: 5%;
+        }
+        .Answer
+        {
+            width: 50%;
+            background-color: bisque;
+            word-break: break-all;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <header><h1>Максимальное число<h1></header>
+        <div>
+            <label>Введите три числа:</label>
+            <div align="center">
+                <input type="text" id="Digit" maxlength="100">
+            </div>
+        </div>
+        
+        
+        <button onclick="printAnswer()">Вывести Максимальное число</button>
+        <div class="Answer" id="Answer"> </div>
+    </div>
+    
+    <script src="№1.js"></script>
+</body>
+</html>

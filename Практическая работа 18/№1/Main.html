@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {
+            display: grid;
+        }
+        .wrap
+        {
+            display: grid;
+            justify-items: center;
+            gap: 5%;
+        }
+        .Answer
+        {
+            width: 50%;
+            background-color: bisque;
+            word-break: break-all;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <header><h1>Вывод отсортированного массива<h1></header>
+        <p>Введите 10 значений</p>
+        <input type="text" id="N" placeholder="">
+        <button onclick="printSorted()">Показать отсортированный массива</button>
+        <div class="Answer" id = "unSort"> </div>
+        <div class="Answer" id = "Sort"> </div>
+    </div>
+    
+    <script src="№1.js"></script>
+</body>
+</html>
