@@ -40,11 +40,11 @@ function PrintAnswer() {
 
   let undescripted_word = Undescript(descripted_word);
   //let undescripted_word = Undescript(descripted_word);
-  document.getElementById("Descripted_text").textContent +=
+  document.getElementById("Descripted_text").textContent =
     " " + descripted_word.join("");
   //console.log(descripted_word);
 
-  document.getElementById("Undescripted_text").textContent +=
+  document.getElementById("Undescripted_text").textContent =
     " " + undescripted_word;
   //console.log(undescripted_word);
 }
