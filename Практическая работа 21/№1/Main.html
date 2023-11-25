@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Планетарий</title>
     <style>
+        body
+        {
+            background-color: rgb(36, 35, 35);
+            color: aliceblue;
+        }
         .wrap
         {
             display: grid;
@@ -14,89 +19,18 @@
         .Answer
         {
             width: 50%;
-            background-color: bisque;
+            background-color: lightsteelblue;
+            color: black;
             word-break: break-all;
             text-align: center;
         }
     </style>
 </head>
-    <div id="wrap" class="wrap">
+    <div class="wrap" id="wrap">
         <header><h1>Диалог<h1></header>
+        <button onclick="Begin()">Начать Диалог</button>
     </div>
     
-    <script>
-      const CAT = [
-        { name: "Whiskers", price: 500, food: "Fish" },
-        { name: "Mittens", price: 600, food: "Chicken" },
-        { name: "Shadow", price: 450, food: "Beef" },
-        { name: "Fluffy", price: 550, food: "Tuna" }
-      ];
-
-      const DOG = [
-        { name: "Buddy", price: 800, food: "Beef" },
-        { name: "Max", price: 700, food: "Chicken" },
-        { name: "Daisy", price: 900, food: "Lamb" },
-        { name: "Rocky", price: 750, food: "Pork" }
-      ];
-
-      function getPet(pet) {
-        for (animal of pet) {
-          document.write(`<div class="Answer" id="pet"></div>`);
-          document.getElementById("pet").textContent += `Имя: ${pet.name} Корм: ${pet.food} Стоимость: ${pet.price}\n`;
-        }
-        document.getElementById("pet").style.whiteSpace = "pre-line";
-      }
-      let name = prompt("Как вас зовут?");
-        alert(`Привет, ${name}`);
-      document.write(`<div class="Answer">Привет, ${name}</div>`);
-      let newDiv =
-        document.getElementsByTagName("div")[
-        document.getElementsByTagName("div").length - 1
-        ];
-
-      let wrapDiv = document.querySelector(".wrap");
-
-      wrapDiv.appendChild(newDiv);
-      let likes = confirm("Нравится ли тебе кошки?");
-      if (likes) 
-      {
-        document.write(`<div class="Answer">Купи кошку!</div>`);
-        newDiv =
-          document.getElementsByTagName("div")[
-          document.getElementsByTagName("div").length - 1
-        ];
-
-        wrapDiv.appendChild(newDiv);
-
-        document.write(`<div class="Answer" id="pet"></div>`);
-        document.getElementById("pet").style.whiteSpace = "pre-line";
-        
-        newDiv = document.getElementsByTagName("div")[document.getElementsByTagName("div").length - 1];
-        wrapDiv.appendChild(newDiv);
-        
-        for (animal of CAT) {
-          document.getElementById("pet").textContent += `Имя: ${animal.name} Корм: ${animal.food} Стоимость: ${animal.price}\n`;
-        }
-      } 
-      else 
-      {
-        document.write(`<div class="Answer">Купи собаку!</div>`);
-        newDiv =
-          document.getElementsByTagName("div")[
-          document.getElementsByTagName("div").length - 1
-          ];
-        wrapDiv.appendChild(newDiv);
-
-        document.write(`<div class="Answer" id="pet"></div>`);
-        document.getElementById("pet").style.whiteSpace = "pre-line";
-
-        newDiv = document.getElementsByTagName("div")[document.getElementsByTagName("div").length - 1];
-        wrapDiv.appendChild(newDiv);
-
-        for (animal of DOG) {
-          document.getElementById("pet").textContent += `Имя: ${animal.name} Корм: ${animal.food} Стоимость: ${animal.price}\n`;
-        }
-      }
-    </script>
+    <script src="index.js"></script>
 </body>
 </html>
