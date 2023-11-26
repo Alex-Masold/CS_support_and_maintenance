@@ -54,19 +54,20 @@ function PrintPrice(pets)
   let printPrice = document.createElement("div");
   printPrice.className = "Answer";
   
-  for (animal of pets)
+  const animal = pets.find(x => x.name === petName);
+  if (animal)
   {
-    if (animal.name === petName)
-    {
-      printPrice.textContent += `За ${count} штук ${animal.food} вы отдадите: ${count * animal.food.length * 100}\n`;
-      printPrice.textContent += `Стоимость ${animal.name} состовляет ${animal.price}\n`;
-      printPrice.textContent += `Общая стоимость ${animal.name} состовляет ${animal.price + count * animal.food.length * 100}\n`;
-      printPrice.style.whiteSpace = "pre-line";
-      WrapDiv.appendChild(printPrice);
-      break;
-    }
+    printPrice.textContent += `За ${count} штук ${animal.food} вы отдадите: ${count * animal.food.length * 100}\n`;
+    printPrice.textContent += `Стоимость ${animal.name} состовляет ${animal.price}\n`;
+    printPrice.textContent += `Общая стоимость ${animal.name} состовляет ${animal.price + count * animal.food.length * 100}\n`;
+    printPrice.style.whiteSpace = "pre-line";
+    WrapDiv.appendChild(printPrice);
   }
-  
+  else
+  {
+    printPrice.textContent = `${petName}, нет такого!`;
+    WrapDiv.appendChild(printPrice);
+  } 
 }
 function ChoosePet() {
   let WrapDiv = document.getElementById("wrap");
