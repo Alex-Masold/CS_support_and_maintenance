@@ -26,7 +26,7 @@ function Translate(digit, system) {
     digit = Math.floor(digit / system);
     result = System[k] + result;
   }
-  return result;
+  return result;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
 }
 
 let System = "0123456789abcdef";
