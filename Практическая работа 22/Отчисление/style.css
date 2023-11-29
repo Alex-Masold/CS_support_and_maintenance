@@ -1,0 +1,17 @@
+body {
+  background-color: rgb(36, 35, 35);
+}
+.wrapper {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  gap: 5%;
+  color: White;
+}
+.Answer {
+  width: 100%;
+  background-color: #b0c4de;
+  color: black;
+  word-break: break-all;
+  text-align: center;
+}

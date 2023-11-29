@@ -1,0 +1,12 @@
+body {
+  background-color: rgb(36, 35, 35);
+  color: White;
+}
+
+#heroesList {
+  margin-top: 20px;
+}
+
+#preferences {
+  margin-top: 20px;
+}
