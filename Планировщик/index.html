@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task Master</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Task Master</h1>
+    <div class="task-list" id="main">
+      <div class="sticky">
+        <div class="input-container">
+          <label for="taskInput">New Task:</label>
+          <input type="text" id="taskInput" />
+          <button id="addTaskButton" onclick="addTask()">Add Task</button>
+        </div>
+        <div>
+          <select id="taskFilter">
+            <option value="active">Active</option>
+            <option value="completed">Completed</option>
+            <option value="deleted">Deleted</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

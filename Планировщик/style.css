@@ -1,0 +1,94 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #e6e6e6;
+  margin: 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  color: #ff6666;
+  text-align: center;
+}
+
+.task-list {
+  width: 100%;
+  max-width: 800px;
+  margin: 1%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.input-container {
+  display: flex;
+  gap: 10px;
+}
+.input-container button {
+  width: 20%;
+}
+.input-container select {
+  padding: 1%;
+  margin: auto;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: transparent; /* Make select transparent */
+}
+
+.sticky {
+  position: sticky;
+  top: 10px;
+  display: grid;
+  gap: 10%;
+  width: 100%;
+  margin: 1%;
+}
+input,
+select,
+button {
+  background-color: #fafafadf;
+  color: Black;
+  border: none;
+  border-radius: 10px 8px 8px 10px;
+  cursor: pointer;
+  padding: 1%;
+  margin: auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+.wrap-div {
+  display: flex;
+  gap: 10px;
+}
+.task {
+  display: flex;
+  justify-content: space-between;
+  padding: 1%;
+  border-radius: 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.delete-button {
+  display: inline-flex;
+}
+.delete-button button {
+  background-color: #fafafadf;
+  color: Black;
+  border: none;
+  border-radius: 10px 8px 8px 10px;
+  cursor: pointer;
+  padding: 8px;
+}
+
+/* Добавлен стиль для кнопки удаления при наведении */
+button:hover {
+  background-color: #fdfdfd;
+}
+
+.even {
+  background-color: #b3d9ff;
+}
+
+.odd {
+  background-color: #ffb3b3;
+}
