@@ -108,7 +108,6 @@ function createCompletedTaskElement(taskText) {
 
   newTask.className = "task even"; // Set initial class (you can adjust this logic)
   textP.innerHTML = taskText;
-  taskText.style.textDecoration = "line-through";
 
   newTask.appendChild(textP);
   WrapDiv.appendChild(newTask);
